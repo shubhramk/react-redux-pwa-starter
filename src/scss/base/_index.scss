@@ -1,0 +1,13 @@
+@import 'color';
+@import 'typography';
+
+// Font weights
+$light: 100;
+$medium: 400;
+$bold: 600;
+
+// Base Font
+$base-font-family: 'Aladin';
+$base-font-family-fallback: 'sans-serif';
+$base-font-weight: $medium;
+$base-font-size: 12px;

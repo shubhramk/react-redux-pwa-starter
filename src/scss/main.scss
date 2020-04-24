@@ -1,0 +1,29 @@
+@import './base/reset';
+
+@import './vendor/index';
+@import './base/index';
+
+body {
+	font-family: $base-font-family, Fallback, $base-font-family-fallback;
+}
+
+h1 {
+	font-weight: $medium;
+	.medium {
+		font-weight: $bold;
+	}
+}
+h2 {
+	font-weight: $light;
+}
+h3 {
+	font-weight: $medium;
+}
+
+h4 {
+	font-weight: $bold;
+}
+
+.Logo {
+	background-image: url(./../assets/images/logo.png);
+}
